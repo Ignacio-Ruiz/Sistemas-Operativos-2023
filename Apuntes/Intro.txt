@@ -1,0 +1,61 @@
+---------------------------------------------ESTRUCTURA BÁSICA DEL LENGUAJE C-------------------------------------------------------
+Con el #include <> se agregan las librerias ---->Incluye información acerca de la biblioteca estándar 
+
+/***Se trabaja dentro del main***/
+int main() { ------->Define una funcion llamada Main que no recibe valores de argumentos
+
+    printf("HOLA MUANDO"); ----> Main llama a la función de biblioteca printf para escribir una secuencia de caracteres
+                            --->\n representa el caracter nueva linea
+    return 0;
+}
+
+TIPOS DE VARIABLES:
+
+Char (caracter)
+int(Entero natural) 
+Float(Valor de coma flotante, precisión simple)
+Double(Valor de coma flotante, doble precisión)
+Void(Representa la ausencia de tipo)
+Bool(Verdad o falso)
+String(Cadena de caracteres)
+
+Función Scanf: Sirve para leer datos desde el teclado y asignarlos a varibles
+%d Escribe como entero decimal
+%f Escribe como coma flotante 
+%c Escribe para un caracter
+%s Escribe para una cadena de caracteres
+
+
+DECLARACIÓN DE UNA FUNCIÓN
+Una función contiene proposiciones que especfican las operaciones
+de cálculo que se van a realizar 
+Por otro lado las variables almacenan los valores utilizados durantes
+los cálculos
+
+CICLO FOR
+EL for contempla 3 secciones: 
+1)Inicializacion: La inicialización es donde declara e inicializa las variables
+2)Condición
+3)El incremento
+
+La estructura general es:
+for(inicialización; Condición; Incremento)
+
+CICLO IF
+if(condición){
+    //bloque de código
+    }else{
+        //bloque de codigo
+        }
+        
+        /*SWITCH CASE*/
+        SWITCH CASE
+        switch(variable){
+            case valor_1:
+            //Bloque de Código
+            break;
+            case valor_2:
+            //Bloque de Código
+            break;
+            }
+
