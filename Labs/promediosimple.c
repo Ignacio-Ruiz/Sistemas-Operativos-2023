@@ -1,10 +1,7 @@
 #include <stdio.h>
 /*1)Hacer un promedio simple de las primeras 4 notas*/
-int main() {
+int main(){
   float uno, dos, tres, cuatro;
-  float n=0;
-  float promedio;
-
 
   printf("Ingrese la primera nota: \n");
   scanf("%f", &uno);
@@ -18,11 +15,9 @@ int main() {
   printf("Ingrese la cuarta nota: \n");
   scanf("%f", &cuatro);
 
-  float suma = uno + dos + tres + cuatro;
-  printf("El promedio de notas es: %f \n", suma);
-  if(n=suma){
-    promedio=suma/n;
-  }
-}
+  float promedio = (uno + dos + tres + cuatro)/4;
+
+  printf("El promedio de notas es: %f \n", promedio);
+
   return 0;
 }

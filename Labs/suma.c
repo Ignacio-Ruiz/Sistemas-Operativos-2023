@@ -1,7 +1,5 @@
 #include <stdio.h>
 /*1)Hacer la suma de los primeros 100 números impares*/
-#include <stdio.h>
-
 int main() {
     int n = 1; // Iniciamos con el primer número impar
     int suma = 0;
@@ -13,7 +11,7 @@ int main() {
         contador++;
     }
 
-    printf("La suma de los primeros 100 números impares es: %d\n", suma);
+    printf("La suma de los primeros 100 numeros impares es: %d\n", suma);
 
     return 0;
 }
