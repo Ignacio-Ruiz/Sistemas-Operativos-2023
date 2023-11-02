@@ -1,0 +1,8 @@
+-------------------Clase 02-11-2023 SSOO----------------------
+////////SEMÁFOROS/////////
+
+Estos semáforos se conocen como mutex y solo toman valores de 0 y de 1, ya que solo deben permitir que al menos una tarea ingrese a la región crítica. Las funciones sobre el mutex también reciben nombres especiales.
+Los mutex serán el mecanismo que ayude en la sincronización para proteger una sección crítica en nuestro código. Estas secciones críticas serán los datos a los que se acceda de forma
+concurrente. Por ejemplo, si desde dos hilos diferentes leemos y escribimos en una variable global la ejecución puede ser deficiente.
+
+
